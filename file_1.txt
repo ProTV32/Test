@@ -1,1 +1,59 @@
-A
+#User Specific Files
+*.atsln
+*.xml
+*.cproj
+*.atsuo
+*.gitignore
+*.tfignore
+
+#Build Results
+*.o
+*.d
+*.eep
+*.elf
+*.hex
+*.map
+*.srec
+
+#Build Directories
+[Dd]ebug/
+[Rr]elease/
+Arhive/
+
+Thumbs.db
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.sln.docstates
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.lib
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+*.vssscc
+$tf*/
+
+#git init //Инициализация git-репозитория
+#git add * //Добавим существующие файлы для отслеживания изменений в них
+#touch .gitignore //Создадим файл, куда будем заносить файлы, которые не требуется отслеживать
+#git remote add origin git@github.com:yourname/yourproject.git //Слинкуем удалённый репозиторий как origin
+#git pull origin master //Скачиваем последний правки с удалённого репозитория
+#git push --all //Отправляем новые правки на сервер
+#git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
